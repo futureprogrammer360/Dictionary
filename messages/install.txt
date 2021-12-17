@@ -1,0 +1,27 @@
+=================================================
+ ____  _      _   _
+|  _ \(_) ___| |_(_) ___  _ __   __ _ _ __ _   _
+| | | | |/ __| __| |/ _ \| '_ \ / _` | '__| | | |
+| |_| | | (__| |_| | (_) | | | | (_| | |  | |_| |
+|____/|_|\___|\__|_|\___/|_| |_|\__,_|_|   \__, |
+                                           |___/
+
+=================================================
+
+Hello there!
+
+Thank you for installing Dictionary, a useful Sublime Text plugin that shows detailed definitions of words, including phonetics, parts-of-speech, definitions, and examples.
+
+-------------------------------------------------
+
+How to use Dictionary to define a word:
+
+- Click on or select that word
+- Run the `Dictionary: Define` command in the command palette or run the command with custom keybindings (see README.md)
+- Read and/or copy the definition on the popup
+
+-------------------------------------------------
+
+To learn more about this plugin and how you can customize it, check out the README.md file via the `Dictionary: Open Readme` command in command palette.
+
+GitHub homepage: https://github.com/futureprogrammer360/Dictionary

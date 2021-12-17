@@ -1,0 +1,33 @@
+[
+    {
+        "caption": "Dictionary: Define",
+        "command": "dictionary_define"
+    },
+    {
+        "caption": "Dictionary: Toggle Hover Mode",
+        "command": "dictionary_toggle_hover_mode",
+    },
+    {
+        "caption": "Preferences: Dictionary",
+        "command": "edit_settings",
+        "args": {
+          "base_file": "${packages}/Dictionary/Dictionary.sublime-settings",
+          "default": "{\n\t$0\n}\n"
+        }
+    },
+    {
+        "caption": "Preferences: Dictionary Key Bindings",
+        "command": "edit_settings",
+        "args": {
+          "base_file": "${packages}/Dictionary/Default (${platform}).sublime-keymap",
+          "default": "[\n\t$0\n]\n"
+        }
+    },
+    {
+        "caption": "Dictionary: Open Readme",
+        "command": "open_file",
+        "args": {
+          "file": "${packages}/Dictionary/README.md"
+        }
+    }
+]

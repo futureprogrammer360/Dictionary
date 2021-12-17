@@ -1,0 +1,12 @@
+{
+    // Language used by the dictionary
+    // see full list of supported languages in README.md
+    "language": "en",
+
+    // Show definition of text under mouse on hover when true
+    "hover_mode": false,
+
+    // Maximum number of definitions allowed
+    // null to see all definitions, 0 to see only word and phonetic
+    "num_definitions": null
+}
