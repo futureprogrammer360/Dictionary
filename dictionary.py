@@ -22,7 +22,7 @@ class Dictionary:
         """Get definitions of text and return dictionary of definitions"""
         url = "https://api.dictionaryapi.dev/api/v2/entries/%s/%s" % (language, text)
         try:
-            with urllib.request.urlopen(url) as f:
+            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})) as f:
                 response = f.read().decode("utf-8")
         except urllib.error.HTTPError:
             sublime.status_message("No definition found for %s" % text)
