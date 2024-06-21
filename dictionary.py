@@ -1,5 +1,6 @@
 import re
-import urllib
+import urllib.request
+import urllib.error
 import json
 
 import sublime
