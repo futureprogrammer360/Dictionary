@@ -35,6 +35,10 @@ When `hover_mode` is set to `true` in settings, definitions of text under mouse 
 
 Hover mode can also be toggled via the `Dictionary: Toggle Hover Mode` (`dictionary_toggle_hover_mode`) command in the command palette.
 
+#### Number of definitions
+
+The `num_definitions` setting configures the maximum number of definitions to display. Set it to `null` (the default value) to see all available definitions. Set it to `0` to see only the word and phonetic pronunciation.
+
 ### ⌨ Keybindings
 
 Custom keybindings can be created for the commands.
