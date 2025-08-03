@@ -29,27 +29,6 @@ The Dictionary plugin is fully customizable.
 
 There are several settings in `Dictionary.sublime-settings` that you can change to make Dictionary work as you want. The file can be accessed via the `Preferences: Dictionary` command in the command palette.
 
-#### Support languages
-
-The following languages are supported by this plugin, and can be used in the settings:
-
-* `en`: US English (default)
-* `en-uk`: UK English
-* `ar`: Arabic
-* `cs`: Czech
-* `de`: German
-* `es`: Spanish
-* `fr`: French
-* `hi`: Hindi
-* `it`: Italian
-* `ja`: Japanese
-* `ko`: Korean
-* `nl`: Dutch
-* `pt-BR`: Brazilian Portuguese
-* `ru`: Russian
-* `sk`: Slovak
-* `tr`: Turkish
-
 #### Hover mode
 
 When `hover_mode` is set to `true` in settings, definitions of text under mouse will be shown on hover without having to run a command.

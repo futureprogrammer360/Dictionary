@@ -19,9 +19,9 @@ class Dictionary:
         return text
 
     @staticmethod
-    def define(text: str, language: str, num_definitions: int = None) -> dict:
+    def define(text: str, num_definitions: int = None) -> dict:
         """Get definitions of text and return dictionary of definitions"""
-        url = "https://api.dictionaryapi.dev/api/v2/entries/%s/%s" % (language, text)
+        url = "https://api.dictionaryapi.dev/api/v2/entries/en/%s" % text
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})) as f:
                 response = f.read().decode("utf-8")
@@ -61,12 +61,11 @@ class Dictionary:
         """Show popup with definition of text"""
         settings = sublime.load_settings("Dictionary.sublime-settings")
         num_definitions = settings.get("num_definitions", None)
-        language = settings.get("language", "en")
 
         text = Dictionary.clean_text(text)
         if not text:
             return
-        definitions = Dictionary.define(text, language, num_definitions)
+        definitions = Dictionary.define(text, num_definitions)
         if not definitions:
             return
 

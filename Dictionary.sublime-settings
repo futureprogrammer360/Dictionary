@@ -1,8 +1,4 @@
 {
-    // Language used by the dictionary
-    // see full list of supported languages in README.md
-    "language": "en",
-
     // Show definition of text under mouse on hover when true
     "hover_mode": false,
 
