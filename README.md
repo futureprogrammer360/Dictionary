@@ -1,5 +1,10 @@
 # 📔 Dictionary
 
+[![Downloads](https://img.shields.io/packagecontrol/dt/Dictionary)](https://packagecontrol.io/packages/Dictionary)
+[![Tag](https://img.shields.io/github/v/tag/futureprogrammer360/Dictionary?sort=semver)](https://github.com/futureprogrammer360/Dictionary/tags)
+[![Repo size](https://img.shields.io/github/repo-size/futureprogrammer360/Dictionary)](https://github.com/futureprogrammer360/Dictionary)
+[![License](https://img.shields.io/github/license/futureprogrammer360/Dictionary)](https://github.com/futureprogrammer360/Dictionary/blob/master/LICENSE)
+
 [Dictionary](https://github.com/futureprogrammer360/Dictionary) is a convenient [Sublime Text](https://www.sublimetext.com/) plugin that shows detailed definitions of words, including phonetics, parts-of-speech, definitions, and examples.
 
 ## 🎬 Demonstration
